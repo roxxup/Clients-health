@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Function</class>
+ <widget class="QWidget" name="Function">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>443</width>
+    <height>303</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FunctionCheck</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="PingClientButton">
+     <property name="text">
+      <string>Ping client </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="RamCheckButton">
+     <property name="text">
+      <string>RAM Check</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="HardriveCheckButton">
+     <property name="text">
+      <string>HARDRIVE Check</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="ProcessesCheckButton">
+     <property name="text">
+      <string>Processes</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
